@@ -6,7 +6,7 @@ you would find this useful as an educational resource. It works as follows:
 
 - You require a job schedule file, where there is one line per job. You could could use the one provided (schedules/sched1)
 - A line is of the form (arrival time), (service time)
-- The dispatcher will execute a dummy program on for each dispatch (src/program.c)
+- The dispatcher will execute a dummy program on each dispatch (src/program.c)
 
 ## Installation
 
