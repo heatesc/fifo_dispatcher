@@ -6,7 +6,7 @@
 // returns 0 only if successful
 int str_to_int(char* s, int* dest);
 
-// removes newline if it exists
+// removes trailing newline if it exists
 void remove_newline(char* s);
 
 #endif //FIFO_DISPATCHER_UTILS_H
