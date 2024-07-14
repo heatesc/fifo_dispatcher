@@ -1,11 +1,16 @@
 # Simple Toy Dispatcher
 
-This is a simple First-Come, First-Served (FCFS) dispatcher implemented in C. It demonstrates basic process scheduling by running jobs sequentially based on their arrival times.
-Maybe in the future I will make some upgrades to this.
+This is a simple first come first serve toy dispatcher implemented in c. I've written this to aid my
+learning of some operating systems stuff, so maybe if you're learning about operating systems,
+you would find this useful as an educational resource. It works as follows:
+
+- You require a job schedule file, where there is one line per job. You could could use the one provided (schedules/sched1)
+- A line is of the form (arrival time), (service time)
+- The dispatcher will execute a dummy program on for each dispatch (src/program.c)
 
 ## Installation
 
-This isn't the most interesting project, but if for some reason you would like
+This isn't the most interesting project, but if for whatever reason you would like
 to try running it yourself, simply download the project and run the following.
 
 ```bash
@@ -17,6 +22,6 @@ make build_dummy_prog
 ./disp <path to job schedule file>
 ```
 
-## Example
+## Video
 
-![demo]("disp_demo.mp4")
+https://github.com/user-attachments/assets/2ba6b1b8-23b4-4395-8af9-f2004acb6a5b
